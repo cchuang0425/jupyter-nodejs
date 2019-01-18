@@ -1,3 +1,28 @@
+# ZeroMQ 修正版
+
+安裝環境：
+
+NodeJS 11.6.0
+NPM 6.6.0
+ZeroMQ 4.3.0
+ZeroMQ.JS 5.1.0
+
+安裝流程：
+
+```bash
+mkdir -p ~/.ipython/kernels/nodejs/
+cd ~/.ipython/kernels/nodejs/
+git clone https://github.com/notablemind/jupyter-nodejs.git
+cd jupyter-nodejs
+npm install zeromq --zmq-external
+npm install && node install.js
+npm run build
+npm run build-ext
+jupyter console --kernel nodejs
+```
+
+以上.
+
 # Jupyter NodeJS
 This is a kernel for [Jupyter](http://github.com/ipython/ipython)
 
