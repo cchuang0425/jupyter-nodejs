@@ -12,7 +12,7 @@
 ```bash
 mkdir -p ~/.ipython/kernels/nodejs/
 cd ~/.ipython/kernels/nodejs/
-git clone https://github.com/notablemind/jupyter-nodejs.git
+git clone https://github.com/cchuang0425/jupyter-nodejs.git
 cd jupyter-nodejs
 npm install zeromq --zmq-external
 npm install && node install.js
