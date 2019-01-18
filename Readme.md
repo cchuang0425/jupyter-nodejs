@@ -2,10 +2,10 @@
 
 安裝環境：
 
-NodeJS 11.6.0
-NPM 6.6.0
-ZeroMQ 4.3.0
-ZeroMQ.JS 5.1.0
+* NodeJS 11.6.0
+* NPM 6.6.0
+* ZeroMQ 4.3.0
+* ZeroMQ.JS 5.1.0
 
 安裝流程：
 
